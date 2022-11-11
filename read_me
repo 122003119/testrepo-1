@@ -1,7 +1,43 @@
 Vanakam da mapula!!!!
+Entities:
 
-Epdi poguthu
+User
+{
+ id;
+ name;
+ address;
+ email;
+ password;
+ cart[];
+ order[];
+}
+Product
+{
+ productId;
+ name;
+ price;
+ quantity;
+ 
+}
+Order
+{
+ orderId;
+ {productId,quantity};
+ user;
+ DeliveryAddress;
+ price;
+ date;
+ }
 
-69
+------------------------------------------------------------
 
-420
+Register
+Login
+add to Cart
+add product
+view products
+view order
+view cart
+Buy
+cancel
+....
